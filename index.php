@@ -1,4 +1,5 @@
-<?php include('process.php')
+<?php 
+   include('process.php')
 ?>
 
 <!DOCTYPE html>
@@ -95,18 +96,22 @@ DevOps is all about the unification and automation of processes, and DevOps engi
           <div class="row pt-5">
             <h1>Contact us</h1>
             <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor earum nihil dicta odit cumque, molestias voluptatum? Debitis id nam saepe.
+            Get us through;
+                             0743215632/
+                             0745321890
+
+
             </p>
              
         <form action="index.php" method="POST">
                
-            <?php
+                <?php
                    if($response) 
                 {
                     include('respond.php');
                 }
-             ?>
-               
+             ?>   
+                
                 <div class="row">
                     <div class="mb-3 col-lg-6">
                         <label for="firstName" class="form-label">First Name</label>
@@ -147,9 +152,11 @@ DevOps is all about the unification and automation of processes, and DevOps engi
         &copy; samurai2022
     </footer>
 </div>
+    
+
+           <!-- <script src="bootstrap-5.2.0/js/bootstrap.bundle.js"></script> -->
     <script src="bootstrap-5.2.0/js/bootstrap.min.js"></script>
-    <!-- <script src="bootstrap-5.2.0/js/bootstrap.bundle.js"></script> -->
-     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
 
 </body>
 </html>

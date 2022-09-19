@@ -76,63 +76,94 @@ if(isset($_POST['submitbutton']))
                 </div>
                         
                  <h2>
-                     The Programs
+                     The Programs;
                  </h2>
                  <br>
 
-                   <br>
-                <div class="col-lg-4">
+                   
+    
+
+
+       
+           
+<div class="row">
+                <div class="col-lg-3">
                     <div class="card border-dark mb-3" style="max-width: 18rem;">
-                    <div class="card-body">
-          
-                       <h5 class="card-title">Skill Discovery</h5>
-                       <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, earum!</p>
-                       <a href="#" class="btn btn-primary">View Details</a>
+                  <div class="card-hearder bg-light text-dark text-center">
+                      <span>
+                      <b> 
+                        <u> 
+                      Skill Discovery
+                        </u>
+                      </b>
+                    </span>
+                      <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat vitae ab, soluta voluptatibus autem totam commodi esse impedit, placeat pariatur eos corrupti. Repellat accusamus quaerat asperiores libero corrupti, nulla quasi! </p>
+                      <a href="#" class="btn btn-primary">View Details</a>
+                  </div>
+                  <div class="card-body">
+                    
+
                  </div>
-             </div>
-        </div>
-            <br>
-            
+                 <div class="card-footer"></div>
+                    </div>
+              </div>
 
-                 <br> 
-            <div class="col-lg-4">
-                <div class="card border-dark mb-3" style="max-width: 18rem;">
-                <div class="card-body">
-            
-                  <h5 class="card-title">Upskilling Program</h5>
-                   <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, maiores.</p>
-                   <a href="#" class="btn btn-primary">View Details</a>
-                </div>
-            </div>
-         </div>
+              <div class="col-lg-3">
+                   <div class="card border-dark mb-3" style="max-width: 18rem;">
+                   <div class="card-hearder bg-light text-dark text-center">
+                      <span>
+                        <b>
+                            <u>
+                      Upskilling Program
+                            </u>
+                        </b>
+                    </span>
+                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse distinctio modi optio velit, sit sed, inventore voluptatum eius tenetur commodi labore architecto ex libero voluptatem, iure quia. Aliquam, impedit voluptatem. </p>
+                      <a href="#" class="btn btn-primary">View Details</a>
+                  </div>
+                   <div class="card-body">
+                       
+                         
+                    </div>
+                   <div class="card-footer"></div>
+                   </div>
+              </div>
 
-        <br>
+              <div class="col-lg-3">
+                   <div class="card border-dark mb-3" style="max-width: 18rem;">
+                   <div class="card-hearder bg-light text-dark text-center">
+                      <span>
+                        <b>  
+                            <u>
+                      Path Finding Programs
+                            </u>
+                        </b>
+                    </span>
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, error! Vel adipisci quas libero similique non amet, obcaecati numquam esse perspiciatis consequuntur! Cupiditate eveniet sequi repudiandae adipisci architecto quam est? </p>
+                      <a href="#" class="btn btn-primary">View Details</a>
+                  </div>
+                   <div class="card-body">
+                       
+                         
+                    </div>
+                   <div class="card-footer"></div>
+                   </div>
+              </div>
 
-                 <br>
-            <div class="col-lg-4">
-                <div cl.ass="card border-dark mb-3" style="max-width: 18rem;">
-                <div class="card-body">
-                   <h5 class="card-title">Path Finding Program</h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, maiores.</p>
-                    <a href="#" class="btn btn-primary">View Details</a>
-                </div>
-            </div>
-          </div>
-        <br> 
 
 
-        <form action="aboutus.php" method="POST">
+              <form action="aboutus.php" method="POST">
             <div class="row">
             <div class="mb-3 col-lg-6">
                    <label for="email" class="form-label">Email</label>
                    <input type="email" name="email" class="form-control" placeholder="your email address">
-            </div>  
-         </div> 
+             </div>  
+          </div> 
 
-         <br>    
-       <button type="submit" name="submitbutton" class="btn btn-primary">subscribe</button>  
+           <br>    
+         <button type="submit" name="submitbutton" class="btn btn-primary">subscribe</button>  
 </form>
-                    
+
                 
                 <hr>
     
@@ -141,24 +172,13 @@ if(isset($_POST['submitbutton']))
                 </footer>
 </div>
 
+          <!-- <script src="bootstrap-5.2.0/js/bootstrap.bundle.js"></script> -->
+    <script src="bootstrap-5.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-             <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>   
-             <!-- <script src="bootstrap-5.2.0/js/bootstrap.bundle.js"></script> -->
-             <script src="bootstrap-5.2.0/js/bootstrap.min.js"></script>
 </body>
 </html>
 
